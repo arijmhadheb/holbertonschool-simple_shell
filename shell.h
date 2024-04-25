@@ -15,7 +15,10 @@ void display_prompt();
 char *read_line();
 char *read_line_file(FILE *file);
 void error(void);
-void pwd_command (void);
+void pwd(void);
 int exit(void);
+void env(void);
+void free_args(char **args);
+char *path(char *cmd);
 
 #endif /* SHELL_H*/
