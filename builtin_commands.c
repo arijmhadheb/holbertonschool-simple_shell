@@ -1,4 +1,5 @@
 #include "shell.h"
+#include <stdlib.h>
 /**
  * pwd - builtin command.
  *
@@ -25,7 +26,7 @@ int pwd(void)
  *
  * Return: 0 to exit the shell
  */
-int exit(void)
+int exit_shell(void)
 {
 	exit(EXIT_SUCCESS);
 }
