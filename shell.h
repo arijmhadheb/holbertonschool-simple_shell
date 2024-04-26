@@ -16,7 +16,7 @@ char *read_line(void);
 char *read_line_file(FILE *file);
 void error(void);
 void pwd(void);
-int exit_shell(void)
+int exit_shell(void);
 void env(void);
 void free_args(char **args);
 char *path(char *cmd);

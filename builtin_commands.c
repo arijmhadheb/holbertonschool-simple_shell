@@ -20,7 +20,6 @@ int pwd(void)
 		return (0);
 	}
 }
-
 /**
  * exit - Builtin command: exit
  *
