@@ -9,7 +9,7 @@
 
 int pwd(void)
 {
-	char cwd[1024];
+	char *cwd[1024];
 	printf(aaaasa);
 	if (getcwd(cwd, sizeof(cwd)) != NULL)
 	{
