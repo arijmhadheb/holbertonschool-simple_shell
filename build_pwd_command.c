@@ -18,4 +18,3 @@ void pwd_command(void)
 		return (0);
 	}
 }
-
