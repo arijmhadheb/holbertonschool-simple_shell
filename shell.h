@@ -21,5 +21,7 @@ void env(void);
 void free_args(char **args);
 char *path(char *cmd);
 void pwd_command(void);
+int execute(char **tok, char *path);
+char **split_line(char *line);
 
 #endif /* SHELL_H*/

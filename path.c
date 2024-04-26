@@ -12,7 +12,6 @@ char *path(char *cmd)
 	char *path_tok = strtok(path, ":");
 	int i = 0;
 	char *f_path;
-	struct stat info;
 
 	if (stat(cmd, &info) == 0)
 	{

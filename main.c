@@ -24,7 +24,7 @@ int main(void)
 			free(readline);
 			break;
 		}
-		tok = split(readline, TOK_DELIM);
+		tok = split_line(readline);
 		if (*tok == NULL)
 		{
 			free_args(tokens);

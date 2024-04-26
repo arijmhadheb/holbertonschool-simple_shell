@@ -10,7 +10,7 @@ char *read_line(void)
 	char *line = NULL;
 	size_t size = 0;
 
-	if (getline(&line, size, stdin) == -1)
+	if (getline(&line, &size, stdin) == -1)
 	{
 		if (feof(stdin))
 		{
@@ -23,7 +23,7 @@ char *read_line(void)
 			exit(EXIT_FAILURE);
 		}
 	}
-	return (NULL);
+	return (line);
 }
 /**
  * read_line_file - Read line from file
