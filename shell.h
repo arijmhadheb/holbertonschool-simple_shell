@@ -11,8 +11,8 @@
 #define BUFFER_SIZE 1024
 #define EXIT_SUCCESS 0
 
-void display_prompt();
-char *read_line();
+void display_prompt(void);
+char *read_line(void);
 char *read_line_file(FILE *file);
 void error(void);
 void pwd(void);
