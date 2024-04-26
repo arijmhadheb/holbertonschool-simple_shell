@@ -5,6 +5,9 @@
  *
  * Return: 1 or 0.
  */
+
+#define PATH_MAX 1024
+
 int pwd(void)
 {
 	char cwd[PATH_MAX];
