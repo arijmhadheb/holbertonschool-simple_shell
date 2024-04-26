@@ -9,12 +9,10 @@ void pwd_command(void)
 
 	if (getcwd(cwd, sizeof(cwd)) != NULL)
 	{
-		printf("%s\n", cwd);
-		return (1);
+		printf("%d\n", cwd);
 	}
 	else
 	{
 		perror("getcwd");
-		return (0);
 	}
 }

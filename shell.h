@@ -20,5 +20,6 @@ int exit_shell(void);
 void env(void);
 void free_args(char **args);
 char *path(char *cmd);
+void pwd_command(void);
 
 #endif /* SHELL_H*/
