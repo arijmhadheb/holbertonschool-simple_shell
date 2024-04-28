@@ -14,13 +14,9 @@
 void display_prompt(void);
 char *read_line(void);
 char *read_line_file(FILE *file);
-void error(void);
-int pwd(void);
-int exit_shell(void);
 void env(void);
 void free_args(char **args);
 char *path(char *cmd);
-void pwd_command(void);
 int execute(char **tok, char *path);
 char **split_line(char *line);
 
